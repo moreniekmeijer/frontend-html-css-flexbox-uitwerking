@@ -9,13 +9,11 @@ div {
 }
 main {
     display: flex;
-    flex: 1 auto;
+    flex: 1;
 }
 article {
-    display: flex;
-    flex: 1 100%;
+    flex: 1;
 }
-nav header footer {
-    display: flex;
-    flex: 0 0 auto;
+header, footer, nav {
+    flex: 0 0 200px;
 }

@@ -8,19 +8,18 @@ main {
     flex-direction: row;
     flex-grow: 1;
 }
-main * {
-    display: flex;
-    flex-basis: 100px;
-    flex-grow: 1;
-}
 article {
     flex-basis: 300px;
     flex-grow: 1;
-    flex-shrink: 1; /*werkt niet?*/
+    flex-shrink: 1;
 }
 nav {
     order: 3;
+    flex-basis: 200px;
 }
 aside {
-
+    flex-basis: 200px;
+}
+header, footer {
+    flex-basis: 200px;
 }

@@ -1,15 +1,21 @@
 body {
     display: flex;
     flex-direction: column;
-    justify-content: center;
+    min-height: 100vh;
 }
 main {
     display: flex;
-    flex-grow: 1 100%;
+    flex: 1;
 }
 article {
-    display: flex;
-    flex: 1 1 100%;
-    order: 8;
+    flex: 1;
 }
-
+header, footer, nav, aside {
+    flex-basis: 200px;
+}
+article {
+    order: 1;
+}
+aside {
+    order: 2;
+}

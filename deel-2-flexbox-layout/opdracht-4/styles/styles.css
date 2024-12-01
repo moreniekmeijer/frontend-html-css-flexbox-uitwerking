@@ -5,22 +5,20 @@ body {
 .outer-col-2 {
     display: flex;
     flex-direction: column;
-    flex-basis: 100%;
+    flex: 1;
 }
 .inner-row {
     display: flex;
-    flex-basis: 100%;
+    flex: 1;
 }
 .inner-col {
     display: flex;
     flex-direction: column;
-    flex-basis: 100%;
+    flex: 1;
 }
-.article {
-    display: flex;
-    flex-basis: 100%;
+article {
+    flex: 1;
 }
-nav header footer aside {
-    display: flex;
-    flex: 0 0 auto;
+nav, header, footer, aside {
+    flex: 0 0 200px;
 }
