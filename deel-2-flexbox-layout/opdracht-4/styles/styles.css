@@ -1,1 +1,26 @@
-/*Schrijf hier jouw CSS*/
+body {
+    display: flex;
+    height: 100vh;
+}
+.outer-col-2 {
+    display: flex;
+    flex-direction: column;
+    flex-basis: 100%;
+}
+.inner-row {
+    display: flex;
+    flex-basis: 100%;
+}
+.inner-col {
+    display: flex;
+    flex-direction: column;
+    flex-basis: 100%;
+}
+.article {
+    display: flex;
+    flex-basis: 100%;
+}
+nav header footer aside {
+    display: flex;
+    flex: 0 0 auto;
+}

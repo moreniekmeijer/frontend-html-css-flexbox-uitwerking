@@ -1,1 +1,15 @@
-/*Schrijf hier jouw CSS*/
+body {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+main {
+    display: flex;
+    flex-grow: 1 100%;
+}
+article {
+    display: flex;
+    flex: 1 1 100%;
+    order: 8;
+}
+
