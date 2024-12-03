@@ -1,1 +1,55 @@
-/*Schrijf hier jouw css*/
+body {
+    font-family: helvetica, sans-serif;
+    background-color: #f2f3d9;
+    text-align: center;
+    margin: 0;
+    box-sizing: border-box;
+}
+/*header*/
+header {
+    background-color: #030027;
+}
+nav {
+    display: flex;
+    color: white;
+    align-items: center;
+    padding: 20px;
+    padding-inline: 40px;
+}
+ul {
+    display: flex;
+    gap: 40px;
+    list-style: none;
+    flex-basis: 100%;
+    justify-content: flex-end;
+}
+li {
+    display: flex;
+    flex-grow: 0;
+}
+/*main*/
+main {
+    display: flex;
+    flex-direction: column;
+    flex-basis: 100%;
+}
+.large-text{
+    margin: 20px;
+}
+.information {
+    display: flex;
+    padding: 10px;
+    margin: 20px;
+    justify-content: center;
+    flex-basis: 350px;
+    gap: 40px;
+
+}
+.information div {
+    background-color: #c16e70;
+    border-radius: 5px;
+    display: flex;
+    padding: 10px;
+    flex: 0 1 280px;
+    align-items: flex-end;
+}
